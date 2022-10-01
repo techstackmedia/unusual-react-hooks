@@ -24,8 +24,8 @@ import { useEffect, useRef, useState } from "react";
 
 const Todo = () => {
   const [loading, setLoading] = useState(true);
-  const [todo, setTodo] = useState({true});
-  const isMounted = useRef();
+  const [todo, setTodo] = useState({});
+  const isMounted = useRef(true);
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/todos/1")
       .then((res) => res.json())
