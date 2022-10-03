@@ -1,6 +1,4 @@
 import { useRef } from "react";
-import Useref2 from "./Useref2";
-import Useref3 from "./Useref3";
 
 const UseRef1 = () => {
   const inputRef = useRef();
@@ -23,8 +21,6 @@ const UseRef1 = () => {
         <button type="submit">Submit</button>
       </form>
       <p ref={paraRef} onClick={() => inputRef.current.focus()}></p>
-      <Useref2 />
-      <Useref3 />
     </>
   );
 };

@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import UseRef1 from "./Hooks/Useref1";
+import Example from "./pages/Example";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<UseRef1 />} />
+        <Route path="/" element={<Example />} />
       </Routes>
     </Router>
   );
