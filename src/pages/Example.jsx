@@ -1,3 +1,5 @@
+
+import UseCallback from "../Hooks/UseCallback";
 import UseMemo from "../Hooks/UseMemo";
 import UseRef1 from "../Hooks/Useref1";
 import Useref2 from "../Hooks/Useref2";
@@ -10,6 +12,7 @@ const Example = () => {
       <Useref2 />
       <Useref3 />
       <UseMemo />
+      <UseCallback />
     </>
   );
 };
